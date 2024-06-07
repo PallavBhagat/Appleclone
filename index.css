@@ -1,0 +1,607 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+    background-color: hwb(300 95% 5%);
+    /* height: 45px; */
+    padding: 8px 0px;
+    width: 1500px;
+    margin-top: 0%;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 12px;
+}
+
+/* .header li{
+    display: inline-block;
+    margin-left:20px; 
+} */
+
+.header li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header [alt=apple]{
+   height: 20px;
+}
+.col1{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(107, 109, 110);
+}
+
+.col{
+    /* height: 500px; */
+    background-color:hsl(300, 8%, 95%) ;
+    width: 1500px;
+
+   
+}
+.col2{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.col2 span{
+    color: black;
+}
+
+.col4{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col4 span{
+    color: black;
+}
+
+.col5{
+    display: flex;
+    padding-left: 130px;
+    gap: 20px;
+}
+
+.col5 div{
+    height: 500px;
+    width: 380px;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.col5 .colum1{
+    background-image: url(./picture/macbook-air-.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    mix-blend-mode: darken;
+    background-size: cover;
+}
+
+.col5 .colum2 {
+    background: url(./picture/iphone15.jpg)center;
+    /* height: 20vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    background-size: cover;
+    /* text-align: center; */
+    /* flex-direction: column; */
+    /* background-image: url(./picture/iphone15.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;    
+    mix-blend-mode: darken;
+     color: aliceblue; 
+}
+
+.col5 .colum3{
+    background-image: url(./picture/watches.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+
+/* .col5 p{
+    padding-left: 10px;
+} */
+
+
+.col6{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col6 span{
+    color: black;
+}
+
+.col7{
+    display: flex;
+    padding-left: 130px;
+    gap: 15px;
+}
+
+.col7 div{
+    height: 500px;
+    width: 480px;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.col7 .colum6{
+    height: 500px;
+    width: 380px;
+    background-image: url(./picture/apple\ work.jpg);
+    background-repeat: no-repeat;
+    /* mix-blend-mode: darken; */
+    color: white;
+    background-size: cover;
+    
+}
+
+.col7 .colum7{
+    height: 500px;
+    width: 380px;
+    background-image: url(./picture/at\ apple\ store.jpg);
+    background-repeat: no-repeat;
+    /* mix-blend-mode: darken; */
+    background-size: cover;   
+}
+
+
+.col8{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col8 span{
+    color: black;
+}
+
+
+.col9{
+    display: flex;
+    padding-left: 130px;
+    gap: 15px;
+}
+
+.col9 div{
+    height: 200px;
+    width: 380px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+/* .col19 .colum8{
+    
+} */
+
+.col9 .colum8 span{
+    color: blue;
+}
+
+.col9 .colum9 span{
+    background-image: linear-gradient(red, green, blue);
+}
+
+.col9 .colum10 span{
+    color: rgb(161, 9, 199);
+}
+
+.col9 .colum11 span{
+    color: rgb(8, 207, 35);
+}
+
+.col10{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col10 span{
+    color: black;
+}
+
+
+.col11{
+    display: flex;
+    padding-left: 130px;
+    gap: 17px;
+}
+
+.col11 div{
+    height: 400px;
+    width: 380px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;  
+}
+
+.col11 .colum12{
+    height: 400px;
+    width: 440px;
+}
+
+.col11 .colum12 img{
+    height: 320px;
+    width: 350px;
+    mix-blend-mode: darken;
+}
+
+.col11 .colum13 h4{
+    color: rgb(155, 102, 5);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    font-size: smaller;
+    padding-top: 25px;
+}
+
+.col11 .colum13 img{
+    height: 230px;
+    width: 250px;
+    mix-blend-mode: darken;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.col11 .colum14 img{
+    height: 250px;
+    width: 250px;
+    mix-blend-mode: darken;
+}
+
+.col11 .colum14 h3{
+   padding-top: 40px;
+}
+
+.col11 .colum15 h4{
+    color: rgb(155, 102, 5);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.col11 .colum15 img{
+    height: 280px;
+    width: 230px;
+    mix-blend-mode: darken;
+    padding-left: 30px;
+}
+
+.col11 .colum15 h4{
+    padding-left: 40px;
+}
+
+.col12{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col12 span{
+    color: black;
+}
+
+.col13{
+    display: flex;
+    padding-left: 130px;
+    gap: 17px;
+}
+
+.col13 div{
+    height: 450px;
+    width: 380px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.col13 .colum16{
+    height: 450px;
+    width: 440px;
+}
+
+.col13 .colum16 h3{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: xx-large;
+}
+
+
+.col13 .colum16 p{
+    padding-left: 20px;
+    font-size: medium;
+}
+
+.col13 .colum16 img{
+    height: 300px;
+    width: 270px;
+    mix-blend-mode: darken;
+    padding-left: 40px;
+}
+
+.col13 .colum17 img {
+    mix-blend-mode: darken;
+    padding: 30px;
+}
+
+.col13 .colum17 h4{
+    color: rgb(155, 102, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.col13 .colum18 img {
+    mix-blend-mode: darken;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+.col13 .colum19 img {
+    mix-blend-mode: darken;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+
+.col14{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col14 span{
+    color: black;
+}
+
+.col15{
+    display: flex;
+    padding-left: 130px;
+    gap: 20px;
+}
+
+.col15 div{
+    height: 400px;
+    width: 480px;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.col15 .colum20{
+    background-image: url(./picture/Apple\ TV+.jpg);
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+.col15 .colum21 img{
+    height: 400px;
+    width: 350px;
+    padding-left: 30px;
+    mix-blend-mode: darken;
+}
+
+
+.col15 .colum22 img{
+    height: 300px;
+    width: 280px;
+    padding-left: 35px;
+    mix-blend-mode: darken;
+}
+
+
+.col16{
+    color:rgb(107, 109, 110) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.col16 span{
+    color: black;
+}
+
+.col17{
+    display: flex;
+    padding-left: 130px;
+    gap: 8px;
+}
+
+.col17 div{
+    height: 400px;
+    width: 380px;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    color: rgb(35, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    padding-top: 25px;
+    box-shadow: 2px 2px 10px;
+    font-size: smaller;
+    background-image: url(./picture/macbook\ news.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+     mix-blend-mode: darken; 
+}
+
+
+
+.col17 .colum5 h1{
+    font-size: x-large;
+}
+
+.col7 .colum5 img{
+    height: 390px;
+    width: 420px;
+    mix-blend-mode: darken;
+    padding-left: 20px;
+}
+
+
+.col18{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+.col19 {
+    display: flex;
+    gap: 8px;
+    padding-left: 130px;
+}
+
+.col19 div{
+    border: 1px solid rgb(76, 75, 75);
+    padding: 10px;
+    border-radius: 50px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.col19 a{
+    text-decoration: none;
+     color: rgb(0, 0, 0); 
+}
+
+
+.col199:hover{
+    background-color: black;
+}
+
+.col199:hover a{
+    color: aliceblue;
+}
+
+
+
+
+.col20{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-top: 15px;
+    font-size: smaller;
+    width: 900px;
+    color: rgb(150, 152, 153);
+}
+
+hr{
+    color: rgb(66, 66, 66);
+    width: 950px;
+    margin-left: 300px;
+    line-height: 2px;
+}
+
+.col21{
+    display: flex;
+    gap: 70px;
+    padding-left: 300px;
+    text-decoration: none;
+}
+
+.col21 h5{
+    color: rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col21 a{
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.col22{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-top: 15px;
+    font-size: smaller;
+    width: 900px;
+    color: rgb(150, 152, 153);
+}
+
+
+hr{
+    color: rgb(66, 66, 66);
+    width: 950px;
+    margin-left: 300px;
+    line-height: 2px;
+}
+
+
+.col23{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-top: 15px;
+    font-size: smaller;
+    width: 900px;
+    color: rgb(150, 152, 153);
+}
